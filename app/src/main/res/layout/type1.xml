@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="500dp"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_class"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        />
+
+    <RatingBar
+        android:id="@+id/rbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- View One: basic layout with rating bar and text view, text view first -->
+
+</LinearLayout>
